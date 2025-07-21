@@ -1,0 +1,90 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lakeisha
+    last_name: Jones
+    
+    # Define yourself in 4-5 words
+    motto: All you have to dois try.
+    
+    # focus
+    focus: development and growth
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: lakeishajones780@gmail.com #optional
+    phone: 773 458 0949 #optional
+    linkedin: www.linkedin.com/in/lakeisha-jones-209a1b98 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Lakeisha Jones
+    
+    instagram: https://www.instagram.com/mz._keisha_j/  #optional
+    
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      -
+    # Interests or hobbies
+    interests:
+      - item: music
+
+      - item: reading
+
+      - item: movies
+      
+      - item: spending time with my famiy
+
+# Your previous job experiences or volunteer
+experiences: 
+    - role: Bussiness Analyst II
+      time: 3 years
+      company: Zurich Insurance
+     
+    - role: Bussiness System Analyst II
+      time: 1 years
+      company: Capgemini
+
+    - role: Bussiness Analyst II
+      time: 3 years
+      company: HCSC
+
+   
+# Your project portfolio
+projects:
+    intro: >
+      Just a few simple projects as I continue to learn how to code.
+
+    assignments:
+      - title: HTML Form - Use JS to validate 
+        link: "https://github.com/4GeeksAcademy/lakeisha-HTML-JS-Form.git"
+        tagline: "A simple form."
+
+      - title: Instagram Feed with Boostrap
+        link: "https://github.com/4GeeksAcademy/LakeishaJones_Bootsrap-_IG_Post.git"
+        tagline: "A static representation of an Instagram feed uisng Bootstrap."
+      
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 20%
